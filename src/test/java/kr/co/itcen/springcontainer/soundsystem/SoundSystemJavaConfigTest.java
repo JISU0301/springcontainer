@@ -22,6 +22,7 @@ import kr.co.itcen.springcontainer.config.soundsystem.SoundSystemConfig;
 						@Repository
 
 */
+
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = {SoundSystemConfig.class})
 public class SoundSystemJavaConfigTest {
