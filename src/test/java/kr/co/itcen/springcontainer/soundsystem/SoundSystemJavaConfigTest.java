@@ -16,10 +16,10 @@ import kr.co.itcen.springcontainer.config.soundsystem.SoundSystemConfig;
 
 /*
 	Auto Configuration = Java Config
-	Component Scanning(@Component, @Named, @AutoWired, @Inject)
-						@Servicd
-						@Controller
-						@Repository
+	Component Scanning ( @Component, @Named, @AutoWired, @Inject)
+						 @Servicd
+						 @Controller
+						 @Repository
 
 */
 
