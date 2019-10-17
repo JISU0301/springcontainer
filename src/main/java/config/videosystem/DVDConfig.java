@@ -10,7 +10,7 @@ import kr.co.itcen.springcontainer.videosystem.BlankDisc;
 
 @Configuration
 public class DVDConfig {
-	
+
 	@Bean
 	public Avengers avengers() {
 		return new Avengers();
@@ -21,9 +21,8 @@ public class DVDConfig {
 		BlankDisc blankDisc = new BlankDisc();
 		blankDisc.setTitle("Avengers Infinity War");
 		blankDisc.setStudio("MARVEL");
-		blankDisc.setActors( Arrays.asList("Robert Downey Jr.","Chris Evans","Scarlett Johansson"));
+		blankDisc.setActors(Arrays.asList("Robert Downey Jr.", "Scarlett Johansson", "Chris Evans"));
 		
 		return blankDisc;
 	}
-	
 }
